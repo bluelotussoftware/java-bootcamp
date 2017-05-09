@@ -1,0 +1,37 @@
+/*
+ * Copyright 2012 John Yeary.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package com.bluelotussoftware.singleton;
+
+/**
+ * Singleton using a static class.
+ *
+ * @author John Yeary
+ * @version 1.0
+ */
+public class Single___WhoKnew {
+
+    private Single___WhoKnew() {
+    }
+
+    public static Single___WhoKnew getInstance() {
+        return Single___WhoKnewHolder.INSTANCE;
+    }
+
+    private static class Single___WhoKnewHolder {
+
+        private static final Single___WhoKnew INSTANCE = new Single___WhoKnew();
+    }
+}

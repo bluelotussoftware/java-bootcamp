@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.bluelotussoftware</groupId>
+    <artifactId>java-bootcamp-lessons</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>OCA/lesson01</module>
+        <module>OCA/lesson02</module>
+        <module>OCA/lesson03</module>
+        <module>OCA/lesson04</module>
+        <module>OCA/lesson05</module>
+        <module>OCA/lesson06</module>
+        <module>OCA/lesson07</module>
+        <module>OCA/lesson08</module>
+        <module>OCA/lesson09</module>
+        <module>OCA/lesson10</module>
+        <module>OCP/module3</module>
+        <module>OCP/module4</module>
+        <module>OCP/module5</module>
+        <module>OCP/module6</module>
+        <module>OCP/module7</module>
+        <module>OCP/module8</module>
+        <module>OCP/module9</module>
+        <module>OCP/module11</module>
+        <module>OCP/module12</module>
+    </modules>
+    <organization>
+        <name>Blue Lotus Software, LLC.</name>
+        <url>http://www.bluelotussoftware.com</url>
+    </organization>
+    <developers>
+        <developer>
+            <id>jyeary</id>
+            <name>John Yeary</name>
+            <email>jyeary@bluelotussoftware.com</email>
+            <organization>Blue Lotus Software, LLC.</organization>
+            <organizationUrl>http://www.bluelotussoftware.com</organizationUrl>
+            <url>http://javaevangelist.blogspot.com</url>
+            <timezone>-6</timezone>
+            <roles>
+                <role>Principal</role>
+                <role>Architect</role>
+                <role>Developer</role>
+            </roles>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+    </properties>
+    <name>Java Bootcamp</name>
+</project>
